@@ -12,3 +12,8 @@ Config (
 )
 ```
 This file needs to be inside the anyrun config directory
+
+## usage
+after running ``` cargo build --release ```, copy the created .so to the plugins directory in the anyrun config.\
+``` cp target/release/libanyrun_websearch.so $HOME/.config/anyrun/plugins/. ```\
+Then proceed to create the config file for the plugin and add this plugin to the regular anyrun config.
