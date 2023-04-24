@@ -43,7 +43,7 @@ fn init(config_dir: RString) -> Config {
 fn info() -> PluginInfo {
     PluginInfo {
         name: "Websearch".into(),
-        icon: "utilities-terminal".into(),
+        icon: "edit-find-symbolic".into(),
     }
 }
 
